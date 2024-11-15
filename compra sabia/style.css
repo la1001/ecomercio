@@ -1,0 +1,54 @@
+/* Estilos personalizados */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #2e8b57;
+}
+
+/* Estilos para cards */
+.card {
+    transition: transform 0.3s;
+    border-image: 100 xp;
+    max-height: 100 xp;
+    height: 100px; ;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* ajusta el número de columnas y el tamaño de las celdas */
+  }
+  
+  .card-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover; /* ajusta la imagen para mantener la proporción */}
+ .card 
+.card:hover {
+    transform: scale(1.05);
+}
+.img-container {
+    background-color:blueviolet;
+    max-width: 100%;
+    max-height: 300%; /* ajusta la altura a 200px */
+    overflow: hidden; /* recorta la imagen para mantener el aspecto */
+  }
+/* Footer */
+footer {
+    background-color: #2e8b57;
+}
+
+/* Media Queries para diseño responsivo */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.2em;
+    }
+}
